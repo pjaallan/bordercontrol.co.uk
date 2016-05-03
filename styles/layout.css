@@ -1,0 +1,184 @@
+﻿* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	color: #666;	
+	font-family: 'Noto Sans', sans-serif;
+	font-style: normal;
+	background-color: #fff;	
+}
+#container {
+	margin: 0 auto;
+}
+.page_content {
+	max-width: 950px;
+	margin: 0 auto;
+	padding: 10px;	
+}
+#masthead {
+	text-align: center;
+}
+#masthead img {
+	width: 306px;
+	height: 45px;	
+}
+/* Styles for Navigation */
+#navigation {
+	text-align: center;	
+	margin: 0 0 10px 0;
+	padding: 0;
+	border: 0;	
+}
+#navigation ul {	
+	padding: 0;
+	list-style: none;
+}
+#navigation li {
+	background-color: #d3d3d3;	
+	margin-bottom: 5px;
+}
+#navigation a {
+	font-size: 1.1em;
+	color: #444;
+	text-decoration: none;
+	display: block;
+	padding: 10px 20px;
+}
+#navigation a:hover {
+	background-color: #f2f2f2;
+	
+}
+/* Layout Formatting */
+.column_l, .column_r, .column_0 {	
+	padding: 5px 10px;
+}
+.column_l ul {	
+	padding-top: 0;
+	padding-left: 10px;
+	list-style-type: circle;	
+	list-style-position: inside;
+}
+.column_r ul {	
+	padding-top: 0;
+	padding-left: 10px;
+	list-style-type: circle;
+	list-style-position: inside;
+}
+.column_l ul li {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+.column_r ul li {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+.column_r img {
+	margin-top: 20px;
+}
+#footer {
+	width: auto;	
+}
+.float_right {
+	float:right;
+}
+.form {
+padding: 5px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.table {
+	border: 1px solid grey;
+	padding:5px;
+}
+
+/* Styles for Content */
+h1 {
+	color: gray;
+	font-size: 2.0em;
+	text-align: center;
+}
+h2 {
+	color: gray;
+	font-size: 1.75em;
+}
+h3 {
+	color: gray;
+	font-size: 1.5em;
+}
+h4 {
+	color: gray;
+	font-size: 1.25em;
+}
+h5 {
+	color: #965;
+	font-size: 0.75em;
+}
+h6 {
+	color: #965;
+	font-size: 0.5em;
+}
+big {
+	color: #965;
+	font-size: medium;
+}
+/* Styles for Links */
+a {
+	color: #456;
+	text-decoration: underline;
+}
+a:hover {
+	color: #965;
+	text-decoration: underline;
+}
+.style_bold {
+	font-weight: bold;
+}
+.style_italic {
+	font-style: italic;
+}
+a img {
+	border:0px
+}
+/* Styles for Footer */
+#footer {	
+	background-color: #89a;	
+	padding-top: 10px;
+        padding-bottom: 10px;        
+}
+#footer p {
+	color: #fff;
+	text-align: center;
+	margin-top: 2px;
+	margin-bottom: 6px;
+}
+#footer a {
+	color: #fff;
+	text-decoration: underline;
+}
+#footer a:hover {
+	color: #000;
+	text-decoration: none;
+}
+/* Clear Floats */
+.clearfix:after {
+	display: table;
+	content: "";
+	clear: both;
+}
+/* Other styles */
+
+.link-box {
+	margin: 10px auto;
+	
+}
+.hide-mobile {
+	display: none;
+}
+
+
+
