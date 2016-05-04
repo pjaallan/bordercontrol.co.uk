@@ -71,7 +71,7 @@ a[href $= '.pdf'] {
 /* Style for Logo4 button */
 a[name $= 'logo4'] { 
    padding-left: 20px;
-   background: transparent url('../images/logo4.gif') no-repeat center left;
+   background: transparent url('../images/logo4.jpg') no-repeat center left;
 }
 
 /*Styles for Accordion*/
@@ -96,22 +96,24 @@ a[name $= 'logo4'] {
 	display: inline;	
 }
 /* Image Styles */
-.dell-fs-logo {
-	width:100%;
-}
+
 .fs-logo {
 	width: 40%;
 	float: left;
 }
 .dell-prem-logo {
-	width: 60%;
-	float: left;
+	display: block;
+	margin: auto;
 }
 .psb-box-img {
 	float:left;
 	margin-right: 10px;
 	width: 25%;
 }
+.fs-image {
+	width: 70%;
+	display: block;
+	margin: auto;
 
 } /* End Media Styles */
 

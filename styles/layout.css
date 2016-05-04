@@ -77,9 +77,6 @@ body {
 	padding-bottom: 5px;
 	padding-left: 5px;
 }
-.column_r img {
-	margin-top: 20px;
-}
 #footer {
 	width: auto;	
 }
@@ -178,6 +175,9 @@ a img {
 }
 .hide-mobile {
 	display: none;
+}
+
+	
 }
 
 
