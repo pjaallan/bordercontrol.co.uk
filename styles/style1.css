@@ -97,23 +97,14 @@ a[name $= 'logo4'] {
 }
 /* Image Styles */
 
-.fs-logo {
-	width: 40%;
-	float: left;
+
+
+.psb-box {
+	float: right;
 }
-.dell-prem-logo {
-	display: block;
-	margin: auto;
-}
-.psb-box-img {
-	float:left;
-	margin-right: 10px;
-	width: 25%;
-}
-.fs-image {
-	width: 70%;
-	display: block;
-	margin: auto;
+	
+
+	
 
 } /* End Media Styles */
 

@@ -176,6 +176,20 @@ a img {
 .hide-mobile {
 	display: none;
 }
+.fs-logo {
+	display: block;
+	margin: auto;
+	width: 300px;
+ }
+.dell-prem-logo {
+	width: 300px;
+	display: block;
+	margin: auto;
+}
+.psb-box {
+	display: block;
+	margin: auto;
+}
 
 	
 }
