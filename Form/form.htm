@@ -78,34 +78,52 @@
 				</div><!-- End Form -->	
 </div><!-- End Column 0-->
 
-<form action="" method="post">
+
+<form method="post" action="http://fp1.formmail.com/cgi-bin/fm192">
+				    <input type="hidden" name="_pid" value="85214"/>
+                	<input type="hidden" name="_fid" value="ZZP9GC5O"/>
+  				  	<input type="hidden" name="recipient" value="1"/>
+  				 	<input type="hidden" name="required" value="email,firstname,surname,telephone,company"/>
+  				  	<input type="hidden" name="subject" value="Border Control Registration"/>
+  					<input type="hidden" name="redirect" value="http://www.border-control.co.uk/form/thankyou.htm"/>
+ 					<input type="hidden" name="missing_fields_redirect"/>
+ 					<input type="hidden" name="env_report" value="REMOTE_ADDR,HTTP_USER_AGENT,REMOTE_HOST,HTTP_REFERER"/>
+ 					<input type="hidden" name="print_config" value="email"/>
 
 	<h2>Register your interest</h2>
 
 	<fieldset>
 	<legend><span class="number">1</span>Basic Info</legend>
 	<label for="first_name">First Name:</label>
- 		<input type="text" id="first_name" name="user_first_name">
+ 		<input type="text" id="firstname" name="firstname">
 	<label for="surname">Surname:</label>
-  		<input type="text" id="surname" name="user_surname">
+  		<input type="text" id="surname" name="surname">
 	<label for="email">Email:</label>
-  		<input type="email" id="email" name="user_email">
+  		<input type="email" id="email" name="email">
 	</fieldset>
 
 	<fieldset>
 	<legend><span class="number">2</span>Company Details</legend>
 	<label for="company">Company:</label>
-  		<input type="text" id="company" name="user_company">
+  		<input type="text" id="company" name="company">
 	<label for="phone">Phone:</label>
-  		<input type="tel" id="phone" name="user_phone">
+  		<input type="tel" id="phone" name="telephone">
 	</fieldset>
 
 	<fieldset>
+	<label for="service">Select Services:</label>
+		<select id="sevice" name="service">
+			<optgroup label="Choose from list">
+			<option value="email_spam_filtering">Email Spam Filtering</options>
+			<option value="fSecure_protection">F-Secure Protection</option>
+			<option value="email_filtering_fSecure">Email Filtering and F-Secure</option>
+			</optgroup>
+		</select>
 	<label for="info">Additional Info:</label>
 		<textarea id="info" name="info"></textarea>
 
 	<label for="submit">Click to submit:</label>
-		<button type="submit" id="submit">Submit</button>
+		<button type="submit" id="submit" value="Submit form">Submit</button>
 	</fieldset>
 
 	
