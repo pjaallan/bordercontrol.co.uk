@@ -89,28 +89,40 @@ form {
 	margin-right: auto;
 	max-width: 400px;
 	background-color: #f6f6f6;
+	border: solid 1px #eaeaea;
+	border-radius: 5px;
 }
 form h2 {
 	margin-left: 20px;
+	text-align: center;
 }
-input[type="text"],
-input[type="email"],
-input[type="tel"],
+input[type="radio"] {
+	padding: 0;
+	margin: 0;
+	width: 0%;
+	display: inline:
+
+}
 textarea,
 button,
-option,
-select {
+select,
+input {
 	display: block;
 	margin-bottom: 5px;
-	margin-left: 20px;
+	margin-left: auto;
+	margin-right: auto;
 	border-radius: 3px;
-	border: solid 1px gray;	
+	border: solid 1px gray;
+	width: 100%;
+	padding: 10px 5px;
 }
-label {
-	display: block;
-}
-button {
+button[type="submit"] {
 	padding: 10px 20px;
+	background-color: rgba(0, 255, 50, 0.60);
+}
+label[class="inline"] {
+	margin-left: 10px;
+	margin-bottom: 5px;
 }
 fieldset {
 	border: none;
@@ -123,11 +135,9 @@ legend {
 option {
 	border: none;
 }
-input[type="text"] {
-	padding: 10px 5px;
+textarea {
 	margin-left: auto;
 	margin-right: auto;
-	width: 90%;
 }
 .number {
 	background-color: #00cc00;
@@ -217,6 +227,18 @@ a img {
 	content: "";
 	clear: both;
 }
+/* DRY Classes */
+.br {
+	border-radius: 5px;
+}
+.round {
+	border-radius: 50%;
+}
+.inline {
+	width: auto;
+	display: inline-block;
+}
+
 /* Other styles */
 
 .link-box {
